@@ -13,7 +13,7 @@ const NavMediaMobile = () => {
                 <div className={style.middleMainContainer}>
                     <form action="submit" className={style.searchContainer}>
                         <input type="text" className={style.searchBar} placeholder="Search for anything" />
-                        <select name="searchType" className={style.searchDropdown} style={{ width: "26px" }}>
+                        <select name="searchType" className={style.searchDropdown} style={{ width: "25px" }}>
                             <option value="All">All</option>
                             <option value="Art">Art</option>
                             <option value="Collectables">Collectables</option>
