@@ -1,0 +1,151 @@
+.mainNavContainer {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.2);
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 40px;
+  }
+  
+  .logo {
+    display: flex;
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .leftContainer {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+  }
+  
+  .searchContainer {
+    display: flex;
+    width: auto;
+    box-shadow: 0 0 10px rgba(234, 234, 255, .75);
+    background-color: rgba(234, 234, 255, .75);
+  }
+  
+  .searchBar {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: rgba(234, 234, 255, .75);
+  }
+  
+  .searchDropdown {
+    border: 2px solid #eaeaff;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(234, 234, 255, .75);
+  }
+  
+  .findIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .middleMainContainer {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .middleContainer {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .voteDAO {
+    color: rgb(76, 44, 216);
+    font-weight: 700;
+  }
+  
+  .loginButton {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(76, 44, 216);
+    height: 100%;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 12px;
+    align-items: center;
+  }
+
+  .rightContainer {
+    display: flex;
+    width: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .hamburgerMenu {
+      margin: 0 15px;
+  }
+  
+  .selectCrypto {
+    border: 0 0 10px rgb(224, 197, 255);
+    outline: none;
+    border-radius: 10px;
+    padding: 3px 15px;
+    font-size: 16px;
+  }
+
+  .MenuContainer {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    clip-path: inset(0 0 100% 0);
+}
+
+.mainContainer .active {
+    border-bottom: none;
+  }
+
+.active {
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.2);
+      height: 300px;
+      overflow: hidden;
+      clip-path: inset(0 0 -100% 0);
+      transition: all 0.5s;
+  }
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 25px 0 0 50px;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
